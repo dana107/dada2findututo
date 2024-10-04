@@ -1,0 +1,9 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+####essai numéro 1 pour enregistrer dans github + recherche du working directory
+```{r}
+getwd()
+```
