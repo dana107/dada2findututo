@@ -1,0 +1,20 @@
+---
+title: "R Notebook pour la fin du tuto Rstudio"
+output: github_document
+---
+####essai numéro 1 pour enregistrer dans github + recherche du working directory
+```{r}
+getwd()
+```
+####install Bioconducteur#########
+####install bioconducteur version 3.18 car elle est plus adapté à ma version rstudio
+```{r}
+if (!require("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+BiocManager::install(version="3.18")
+```
+####il est déjà installer donc on vas continuer
+####lire dada2####
+```{r}
+library(dada2)
+```
